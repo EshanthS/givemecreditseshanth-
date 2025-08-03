@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardians of Wildlife - Students Against Poaching</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1452570053594-1b985d6ea890?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #3e8e41;
+        }
+        
+        /* About Section */
+        .about {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            color: #2c3e50;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .stat-card {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .stat-card h3 {
+            color: #e74c3c;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        /* Action Section */
+        .actions {
+            padding: 80px 0;
+            background-color: #f5f5f5;
+        }
+        
+        .action-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .action-card {
+            background: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .action-card h3 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .action-card h3 span {
+            margin-right: 10px;
+            font-size: 1.5rem;
+        }
+        
+        /* Footer */
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header/Hero Section -->
+    <header>
+        <div class="container">
+            <h1>Guardians of Wildlife</h1>
+            <p>Students Taking Action Against Poaching and Illegal Hunting</p>
+            <a href="#take-action" class="btn">Take the Pledge</a>
+        </div>
+    </header>
+    
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">The Poaching Crisis</h2>
+            <p>Every year, thousands of animals are killed illegally for their tusks, horns, skins, and other body parts. As students, we have the power to make a difference and help protect endangered species from extinction.</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>35,000+</h3>
+                    <p>Elephants killed annually for ivory</p>
+                </div>
+                <div class="stat-card">
+                    <h3>3</h3>
+                    <p>Rhinos killed every day in South Africa alone</p>
+                </div>
+                <div class="stat-card">
+                    <h3>100+</h3>
+                    <p>Wildlife rangers killed by poachers each year</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Action Section -->
+    <section class="actions">
+        <div class="container">
+            <h2 class="section-title">How Students Can Help</h2>
+            
+            <div class="action-cards">
+                <div class="action-card">
+                    <h3><span>📢</span> Raise Awareness</h3>
+                    <ul>
+                        <li>Start a wildlife protection club at your school</li>
+                        <li>Organize documentary screenings about poaching</li>
+                        <li>Create social media campaigns with #StopPoaching</li>
+                        <li>Write articles for your school newspaper</li>
+                    </ul>
+                </div>
+                
+                <div class="action-card">
+                    <h3><span>💰</span> Fundraise</h3>
+                    <ul>
+                        <li>Host bake sales for wildlife charities</li>
+                        <li>Organize sponsored runs/walks for conservation</li>
+                        <li>Sell student artwork with wildlife themes</li>
+                        <li>Create a GoFundMe for anti-poaching organizations</li>
+                    </ul>
+                </div>
+                
+                <div class="action-card">
+                    <h3><span>✊</span> Advocate</h3>
+                    <ul>
+                        <li>Write to your local representatives</li>
+                        <li>Start petitions for stricter wildlife laws</li>
+                        <li>Boycott products linked to poaching</li>
+                        <li>Educate your family and friends</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Take Action Section -->
+    <section id="take-action" class="about" style="background-color: #eaf7ea;">
+        <div class="container">
+            <h2 class="section-title">Take Action Today</h2>
+            <p>Join students around the world in protecting endangered species. Take the pledge and commit to one action this month to help stop poaching.</p>
+            
+            <form style="max-width: 600px; margin: 40px auto;">
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; margin-bottom: 5px;">Your Name</label>
+                    <input type="text" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; margin-bottom: 5px;">Your Email</label>
+                    <input type="email" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; margin-bottom: 5px;">Your Pledge</label>
+                    <select style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                        <option>I will educate 5 friends about poaching</option>
+                        <option>I will organize a fundraiser at my school</option>
+                        <option>I will start a wildlife protection club</option>
+                        <option>I will write to my local representative</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn" style="border: none; cursor: pointer;">Submit Pledge</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Every small action counts. Together, we can be the generation that stops poaching.</p>
+            <p style="margin-top: 20px;">&copy; 2023 Guardians of Wildlife Student Initiative</p>
+        </div>
+    </footer>
+</body>
+</html>
